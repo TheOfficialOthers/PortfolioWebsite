@@ -16,19 +16,25 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   const skills = {
-    "Web Development": [
-      "Single Page Applications (SPAs)",
-      "Landing pages and business websites",
-      "Portfolio websites",
+    "Scripting": [
+      "Designing modular and scalable systems",
+      "Creating secure and exploit-resistant code",
+      "Roblox game development and scripting"
     ],
-    "Mobile Development": [
-      "Mobile-friendly web apps",
-      "React Native mobile apps",
+    "UI | UX Design": [
+      "Creating custom and reference-based UI designs",
+      "Building responsive layouts for all device sizes",
+      "Maintaining clean, organised, and scalable project structures"
     ],
-    "UI/UX Design & Prototyping": [
-      "UI design with Figma & Canva",
-      "UX research & improvements",
-      "Prototyping for websites & mobile apps",
+    "Team Collaboration": [
+      "Working effectively in team environments",
+      "Providing clear communication and constructive feedback",
+      "Using Rojo for version control and collaboration ( Optional )"
+    ],
+    "Marketing Strategies": [
+      "Understanding audience engagement and retention",
+      "Presenting projects in a visually appealing manner",
+      "Promoting projects through social media and online platforms"
     ],
   };
 
